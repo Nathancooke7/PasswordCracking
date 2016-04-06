@@ -1,0 +1,13 @@
+john the ripper steps:
+
+--single	#track additions for comparing username to passwd
+
+--wordlist='Wordlist/TopMil.txt'
+
+--wordlist='Wordlist/Dates.txt'
+
+--wordlist='Wordlist/Top10Thousand.txt' --rules=single
+
+--wordlist='Wordlist/{company name}.txt' --rules=single
+
+--wordlist='Wordlist/Merged.txt'
